@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sign in · Tidy Notes (test page)</title>
+<meta name="robots" content="noindex">
+<style>
+  body { font-family: system-ui, sans-serif; display: grid; place-items: center; min-height: 100vh; margin: 0; background: #f6f6f4; }
+  form { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 24px; display: grid; gap: 12px; width: 280px; }
+  input, button { font: inherit; padding: 8px; }
+</style>
+</head>
+<body>
+<!-- A test page for Booosty's feature preview (spec 006, criterion 5): a login
+     wall must end the visit as "needs screenshots", never be signed in to. -->
+<form onsubmit="return false">
+  <h1 style="font-size:18px;margin:0">Sign in to Tidy Notes</h1>
+  <label>Email <input type="email" autocomplete="off"></label>
+  <label>Password <input type="password" autocomplete="off"></label>
+  <button type="submit">Sign in</button>
+</form>
+</body>
+</html>
